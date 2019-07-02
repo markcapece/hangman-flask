@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scoreboard</title>
+</head>
+<body>
+    <ul>
+        {% for line in scores %}
+        <li>{{ line }}</li>
+        {% endfor %}
+    </ul>
+    <ul>Start a <a href="/hangman">New Game</a></ul>
+</body>
+</html>
